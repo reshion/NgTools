@@ -1,0 +1,27 @@
+.box {
+  border: inset 1px black;
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+  // min-height: 150px;
+  font-size: 12px;
+  &.active {
+    background-color: lightblue;
+  }
+}
+
+.h {
+  position: absolute;
+  top: 33.99px;
+  height: 1px;
+  background: black;
+  width: 100vw;
+}
+.v {
+  position: absolute;
+  left: 33.99px;
+  top: 0;
+  height: 100vh;
+  background: black;
+  width: 1px;
+}
